@@ -377,5 +377,4 @@ def rate1():
 @app.route('/rate')
 def rate():
     return render_template('rate.html')    
-    
-app.run(debug=True)
+app.run()
